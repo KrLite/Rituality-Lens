@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class RitualityLens implements ModInitializer {
-	public static final String NAME = "Mod Name", ID = "modid";
+	public static final String NAME = "Rituality Lens", ID = "rituality-lens";
 	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
 
 	@Override
