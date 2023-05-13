@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "rituality-lens",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -10,20 +10,20 @@
   ],
   "contact": {
     "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Example-Mod"
+    "sources": "https://github.com/KrLite/Rituality-Lens"
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/rituality_lens/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.krlite.modid.ExampleMod"
+      "net.krlite.rituality_lens.RitualityLens"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "rituality_lens.mixins.json"
   ],
 
   "depends": {
