@@ -4,7 +4,6 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.krlite.pierced.annotation.Silent;
 import net.krlite.pierced.annotation.Table;
 import net.krlite.pierced.config.Pierced;
-import net.krlite.rituality_lens.RitualityLens;
 
 import java.io.File;
 
