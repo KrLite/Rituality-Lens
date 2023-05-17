@@ -23,6 +23,8 @@ public class RitualityLens implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		CONFIG.load();
+		CONFIG.save();
 	}
 
 	public static double lerp(double a, double b, double t) {

@@ -6,6 +6,7 @@ import net.krlite.rituality_lens.RitualityLens;
 import net.krlite.rituality_lens.base.CameraPack;
 import net.krlite.rituality_lens.base.Processable;
 import net.krlite.rituality_lens.base.Resetable;
+import net.krlite.rituality_lens.config.RitualityLensConfig;
 import net.krlite.rituality_lens.mixin.CameraAccessor;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.Camera;
@@ -37,7 +38,7 @@ public class StartRidingAnimation implements Resetable, Processable {
 
 	{
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
-			if (Math.abs(1 - progress) <= RitualityLens.CONFIG.gap) progress = 1;
+			if (Math.abs(1 - progress) <= RitualityLensConfig.GAP) progress = 1;
 			else progress = (float) RitualityLens.lerp(progress, 1, RitualityLens.CONFIG.lerpSpeed);
 		});
 	}

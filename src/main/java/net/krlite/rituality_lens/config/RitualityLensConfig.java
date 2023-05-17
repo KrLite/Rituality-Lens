@@ -15,13 +15,9 @@ public class RitualityLensConfig extends Pierced {
 		super(RitualityLensConfig.class, file);
 	}
 
-	{
-		load();
-		save();
-	}
-
 	@Silent
-	public final float gap = 0.001F;
+	public static final float GAP = 0.001F;
+
 	@Table("StartRidingAnimation")
 	public float lerpSpeed = 0.359F;
 }
