@@ -13,6 +13,8 @@ public class RitualityLensConfig extends Pierced {
 
 	public RitualityLensConfig() {
 		super(RitualityLensConfig.class, file);
+		load();
+		save();
 	}
 
 	@Silent
