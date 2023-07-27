@@ -4,4 +4,4 @@
 
 ## License
 
-**Rituality Lens** is available under the **[GNU Public License.](LICENSE)**
+**Rituality Lens** is licensed under the **[GNU General Public License v3.](LICENSE)**
